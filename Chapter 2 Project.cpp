@@ -1,4 +1,4 @@
-// Chapter 2 Project.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// This main will specifically contain the first chapter 2 project which is calculating sea level rise per year. 
 //
 
 #include <iostream>
