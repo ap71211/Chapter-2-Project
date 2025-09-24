@@ -7,7 +7,11 @@ int main()
 {
 
 
-	double seaLevelRise = 1.5; double levelPerYear_1 = 5; double levelPerYear_2 = 7; double levelPerYear_3 = 10; double amountSeaLevel;
+	double seaLevelRise = 1.5; 
+	double levelPerYear_1 = 5; 
+	double levelPerYear_2 = 7; 
+	double levelPerYear_3 = 10; 
+	double amountSeaLevel;
 
 	cout << "Sea Level Rise by 1.5mm per year" << endl; cout << "____" << endl;
 
