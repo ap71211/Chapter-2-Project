@@ -1,23 +1,28 @@
-// This code will contain the code for Distance Per Tank of Gas.
+// This code will have the drink consumption of surveyed customers. 
+// It will also calculate the number of customers purchasing one or more energy drinks per week and the number of customers purchasing citrus flavored energy drinks.
 //
 
 #include <iostream>
 using namespace std; 
 int main()
 {
-	double vehicleTankCapacity = 20.0; // in gallons  
+	double drinkConsumptionSurveyedCustomers = 16500;
 
-	double distanceOfTankInTown = 23.5; // in miles  
+	double surveyedCustomersPurchaseMultipleDrinks = 15;
 
-	double distanceOfTankOnHighway = 28.9; // in miles  
+	double customersPurchasedCitrusFlavoredDrinks = 58;
 
-	cout << "Distance per Tank of Gas shown below" << endl;
+	cout << "Total number of customers surveyed: " << drinkConsumptionSurveyedCustomers << endl;
 
-	cout << "~~~~~~~~~~" << endl;
+	cout << " ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl; 
 
-	cout << "Distance in Town: " << vehicleTankCapacity * distanceOfTankInTown << " miles" << endl;
+	cout << " Approximate number of customers purchasing one or more energy drinks per week: ";
 
-	cout << "Distance on Highway: " << vehicleTankCapacity * distanceOfTankOnHighway << " miles" << endl;
+	cout << drinkConsumptionSurveyedCustomers * surveyedCustomersPurchaseMultipleDrinks / 100 << " out of 16500 surveyors" << endl;
 
-return 0;
+	cout << " Approximate number of customers purchasing citrus flavored energy drinks: ";
+
+	cout << drinkConsumptionSurveyedCustomers * customersPurchasedCitrusFlavoredDrinks / 100 << " out of 16500 surveyors" << endl;
+
+	return 0;
 }
