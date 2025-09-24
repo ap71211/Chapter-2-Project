@@ -1,24 +1,23 @@
-// Chapter 2 Project.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// This code will contain the code for Distance Per Tank of Gas.
 //
 
 #include <iostream>
 using namespace std; 
 int main()
 {
+	double vehicleTankCapacity = 20.0; // in gallons  
 
+	double distanceOfTankInTown = 23.5; // in miles  
 
-	double seaLevelRise = 1.5; double levelPerYear_1 = 5; double levelPerYear_2 = 7; double levelPerYear_3 = 10; double amountSeaLevel;
+	double distanceOfTankOnHighway = 28.9; // in miles  
 
-	cout << "Sea Level Rise by 1.5mm per year" << endl; cout << "____" << endl;
+	cout << "Distance per Tank of Gas shown below" << endl;
 
-	cout << "Sea Level after 5 years: "; 
-	amountSeaLevel = seaLevelRise * levelPerYear_1; cout << amountSeaLevel << "mm" << endl;
+	cout << "~~~~~~~~~~" << endl;
 
-	cout << "Sea Level after 7 years: "; 
-	amountSeaLevel = seaLevelRise * levelPerYear_2; cout << amountSeaLevel << "mm" << endl;
+	cout << "Distance in Town: " << vehicleTankCapacity * distanceOfTankInTown << " miles" << endl;
 
-	cout << "Sea Level after 10 years: "; 
-	amountSeaLevel = seaLevelRise * levelPerYear_3; cout << amountSeaLevel << "mm" << endl;
+	cout << "Distance on Highway: " << vehicleTankCapacity * distanceOfTankOnHighway << " miles" << endl;
 
-	return 0;
+return 0;
 }
